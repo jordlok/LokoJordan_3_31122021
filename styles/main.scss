@@ -1,5 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+$purple: #9356DC;
+$pink: #FF79DA;
+$green: #99E2D0;
+
 body{
+    margin: 0;
+    padding: 0;
     max-width: 375px;
     margin: auto;
-    background-color: lightgray;
+    background-color: white;
+    font-family: 'Roboto';
+    color: black;
+        h1{
+            font-family: 'Shrikhand';
+        }
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    
+    &:visited {
+        color: black;
+    }
+}
+
+//****************** HEADER ******************
+
+header {
+    div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
