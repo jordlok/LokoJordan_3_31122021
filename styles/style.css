@@ -1,3 +1,7 @@
-
+body {
+  max-width: 375px;
+  margin: auto;
+  background-color: lightgray;
+}
 
 /*# sourceMappingURL=style.css.map */
