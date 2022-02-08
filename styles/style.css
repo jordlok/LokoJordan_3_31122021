@@ -373,6 +373,16 @@ span {
     opacity: 1;
   }
 }
+.menu__animation-entree {
+  animation: fadeinmenu 1000ms 200ms backwards;
+}
+.menu__animation-plats {
+  animation: fadeinmenu 1000ms 500ms backwards;
+}
+.menu__animation-desserts {
+  animation: fadeinmenu 1000ms 900ms backwards;
+}
+
 .menu-img {
   width: 100%;
   height: 300px;
@@ -470,7 +480,6 @@ span {
   opacity: 1;
 }
 .menu-card:hover .menu-card__check-logo {
-  transform: scale(1);
   transform: rotate(360deg);
 }
 .menu-card__check {
@@ -487,7 +496,6 @@ span {
 }
 .menu-card__check-logo {
   color: white;
-  transform: scale(0);
   transform: rotate(0deg);
   transition: transform 600ms ease-in-out;
 }
@@ -523,16 +531,6 @@ span {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
-}
-
-.menu__animation-entree {
-  animation: fadeinmenu 1000ms 200ms backwards;
-}
-.menu__animation-plats {
-  animation: fadeinmenu 1000ms 500ms backwards;
-}
-.menu__animation-desserts {
-  animation: fadeinmenu 1000ms 900ms backwards;
 }
 
 @media screen and (min-width: 950px) {

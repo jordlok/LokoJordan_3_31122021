@@ -467,6 +467,23 @@ span{
     }
 }
 
+.menu__animation{
+    &-entree{
+        animation: fadeinmenu 1000ms 200ms backwards;
+        
+    }
+
+    &-plats{
+        animation: fadeinmenu 1000ms 500ms backwards;
+
+    }
+
+    &-desserts{
+        animation: fadeinmenu 1000ms 900ms backwards;
+    }
+
+}
+
 .menu-img{
     width: 100%;
     height: 300px;
@@ -580,7 +597,6 @@ span{
     }
 
     &:hover .menu-card__check-logo{
-        transform: scale(1);
         transform: rotate(360deg); 
     }
 
@@ -592,11 +608,10 @@ span{
         width: 0px;
         opacity: 0;
         border-radius: 0px 16px 16px 0px;
-        transition: width  600ms ease-in-out, opacity  540ms ease-in-out;  
+        transition: width 600ms ease-in-out, opacity  540ms ease-in-out;  
 
         &-logo{
             color: white;
-            transform: scale(0);
             transform: rotate(0deg);
             transition: transform 600ms ease-in-out;
         }
@@ -645,22 +660,7 @@ span{
     
 }
 
-.menu__animation{
-    &-entree{
-        animation: fadeinmenu 1000ms 200ms backwards;
-        
-    }
 
-    &-plats{
-        animation: fadeinmenu 1000ms 500ms backwards;
-
-    }
-
-    &-desserts{
-        animation: fadeinmenu 1000ms 900ms backwards;
-    }
-
-}
 
 
 
